@@ -3,13 +3,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
 
 import Header  from '../componentes/Header.jsx'
-import {CustomToggle , Example}  from '../componentes/TareasCards.jsx'
+// import FormFloatingLayoutExample from '../componentes/FormCard.jsx'
+import Example  from '../componentes/TareasCards.jsx'
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <CustomToggle/>
+      <Header/>
+      <Example/>
       <Example/>
     </div>
   )

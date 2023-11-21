@@ -1,26 +1,41 @@
 import React from 'react'
 
+import FormFloatingLayoutExample  from '../componentes/FormCard.jsx'
+
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-function Header() {
+function FillExample() {
   return (
     <Tabs
       defaultActiveKey="profile"
-      id="uncontrolled-tab-example"
+      id="fill-tab-example"
       className="mb-3"
+      fill
     >
-      <Tab eventKey="home" title="Home">
-        Tab content for Home
+      <Tab eventKey="lunes" title="Lunes">
+        <FormFloatingLayoutExample/>
       </Tab>
-      <Tab eventKey="profile" title="Profile">
-        Tab content for Profile
+      <Tab eventKey="martes" title="Martes">
+        <FormFloatingLayoutExample/>
       </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
-        Tab content for Contact
+      <Tab eventKey="miercoles" title="Miercoles">
+        <FormFloatingLayoutExample/>
+      </Tab>
+      <Tab eventKey="jueves" title="Jueves">
+        <FormFloatingLayoutExample/>
+      </Tab>
+      <Tab eventKey="viernes" title="Viernes">
+        <FormFloatingLayoutExample/>
+      </Tab>
+      <Tab eventKey="sabado" title="Sábado">
+        <FormFloatingLayoutExample/>
+      </Tab>
+      <Tab eventKey="domingo" title="Domingo">
+        <FormFloatingLayoutExample/>
       </Tab>
     </Tabs>
   );
 }
 
-export default Header;
+export default FillExample;
