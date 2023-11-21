@@ -11,6 +11,7 @@ function FillExample() {
       defaultActiveKey="profile"
       id="fill-tab-example"
       className="mb-3"
+      transition={false}
       fill
     >
       <Tab eventKey="lunes" title="Lunes">

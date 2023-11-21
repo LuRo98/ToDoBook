@@ -28,7 +28,7 @@ function GridAutoSizingColMixExample() {
           />
         </Col>
         <Col xs="auto" className="my-1">
-          <Button type="submit">Crear</Button>
+          <Button type="button">Crear</Button>
         </Col>
       </Row>
     </Form>
