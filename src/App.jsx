@@ -2,16 +2,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
 
-import Header  from '../componentes/Header.jsx'
-// import FormFloatingLayoutExample from '../componentes/FormCard.jsx'
-import Example  from '../componentes/TareasCards.jsx'
+import React from 'react';
+import Header  from '../componentes/Header.jsx';
 
-export default function App() {
+function ParentComponent() {
   return (
-    <div>
-      <Header/>
-      <Example/>
-      <Example/>
-    </div>
-  )
+    <>
+      <h1>Tareas de la Semana</h1>    
+      <div>
+        <Header/>
+        {/* <Footer/> */}
+      </div>
+    </>
+  );
 };
+
+export default ParentComponent;
