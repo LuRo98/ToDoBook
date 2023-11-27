@@ -1,42 +1,87 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  background-color: whitesmoke;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0D2C54;
+  color: white;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tareaDiv{
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.tareaButton, .tareaCompl, .tareaBorr{
+  font-size: 30px;
+  height: 50px;
+  background-color: #FFB400;
+  display: flex;
+  align-items: center;
+  border: none;
 }
 
-.card {
-  padding: 2em;
+.tareaButton{
+  text-align: left;
+  width: 500px;
+  padding-left: 20px;
+  border-radius: 20px 0px 0px 20px;
+
 }
 
-.read-the-docs {
-  color: #888;
+.tareaCompl{
+  width: 50px;
+  border-radius: 0px 20px 20px 0px;
 }
+
+.tareaBorr{
+  font-size: 30px;
+  width: 50px;
+} 
+
+.completed {
+  background-color: #7FB800;
+  color: white;
+}
+
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+form {
+  font-size: 20px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  border-radius: 20px;
+  padding-left: 15px;
+  height: 43px;
+  width: 300px;
+
+}
+
+.nuevaTareaButton{
+  border-radius: 25px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6511D;
+}
+
