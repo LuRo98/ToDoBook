@@ -16,7 +16,7 @@ const TareaAgregada = ({ tareaCompleta, tareaBorrar, tarea }) => {
   const completar = () => {
     setEsCompletada(!esCompletada);
     tareaCompleta(tarea.id);
-    console.log(`${tarea.id} completa`);
+    console.log(`Tarea ID ${tarea.id} completa`);
   };
 
   const borrar = () => {
