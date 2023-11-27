@@ -11,7 +11,6 @@ function ParentComponent() {
       <h1>Tareas de la Semana</h1>    
       <div>
         <Header/>
-        {/* <Footer/> */}
       </div>
     </>
   );

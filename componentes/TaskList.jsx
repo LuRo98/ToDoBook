@@ -1,6 +1,7 @@
 import React from 'react';
 import TareaAgregada from './TaskItem.jsx';
 
+
 const TareasLista = ({ tareas, tareaCompleta, tareaBorrar }) => {
   return (
     <div>
