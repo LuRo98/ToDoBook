@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   min-height: 100vh;
-  margin: 0;
+  margin: auto;
   padding: 0;
   text-align: center;
   background-color: whitesmoke;
@@ -28,13 +28,11 @@ h1 {
   align-items: center;
   border: none;
 }
-
-.tareaButton{
+  .tareaButton{
   text-align: left;
   width: 500px;
   padding-left: 20px;
   border-radius: 20px 0px 0px 20px;
-
 }
 
 .tareaCompl{
@@ -58,7 +56,6 @@ h1 {
   justify-content: center;
 }
 
-
 form {
   font-size: 20px;
   padding-left: 10px;
@@ -73,7 +70,6 @@ input {
   padding-left: 15px;
   height: 43px;
   width: 300px;
-
 }
 
 .nuevaTareaButton{
@@ -84,4 +80,3 @@ input {
   justify-content: center;
   background-color: #F6511D;
 }
-
